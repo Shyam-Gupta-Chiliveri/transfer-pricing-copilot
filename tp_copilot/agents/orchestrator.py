@@ -72,6 +72,10 @@ def _eur_en(amount: int) -> str:
     return f"€{abs(amount):,}"
 
 
+def _pct_de(value: float) -> str:
+    return format_pct(value).replace(".", ",")
+
+
 _POSITION = {"inside": "in", "below": "unter", "above": "über"}
 
 
@@ -106,6 +110,32 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 ),
                 "citation": "§ 1 Abs. 3a AStG; OECD TPG Rn. 2.64 und 3.60",
                 "citation_en": "§ 1 (3a) AStG; OECD TPG paras. 2.64 and 3.60",
+                "rows": [
+                    ("Geprüft", "HTPL"),
+                    ("Kennzahl", "Net Cost Plus"),
+                    ("Ergebnis", _pct_de(pl["net_cost_plus"])),
+                    ("Fertigungskosten", f"{_eur(pl['manufacturing_costs'])} EUR"),
+                    ("Operatives Ergebnis vor Lizenz", f"{_eur(pl['operating_profit_before_royalty'])} EUR"),
+                    ("Bandbreite", f"{_pct_de(assessment['cm_range']['low'])} – {_pct_de(assessment['cm_range']['high'])}"),
+                    ("Median", _pct_de(assessment["cm_range"]["median"])),
+                    ("Lage", _POSITION[assessment["htpl_position"]]),
+                    ("Energie", f"{_eur(pl['energy'])} EUR"),
+                    ("Berichtigung", f"{_eur(adjustment['profit_eur'])} EUR {direction} operatives Ergebnis"),
+                    ("Quelle", "§ 1 Abs. 3a AStG; OECD-VPL Rn. 2.64 und 3.60"),
+                ],
+                "rows_en": [
+                    ("Tested party", "HTPL"),
+                    ("Indicator", "Net cost plus"),
+                    ("Result", format_pct(pl["net_cost_plus"])),
+                    ("Manufacturing costs", _eur_en(pl["manufacturing_costs"])),
+                    ("Operating profit before royalty", _eur_en(pl["operating_profit_before_royalty"])),
+                    ("Range", f"{format_pct(assessment['cm_range']['low'])} – {format_pct(assessment['cm_range']['high'])}"),
+                    ("Median", format_pct(assessment["cm_range"]["median"])),
+                    ("Position", assessment["htpl_position"]),
+                    ("Energy", _eur_en(pl["energy"])),
+                    ("Adjustment", f"{_eur_en(adjustment['profit_eur'])} {'more' if adjustment['profit_eur'] > 0 else 'less'} operating profit"),
+                    ("Source", "§ 1 (3a) AStG; OECD TPG paras. 2.64 and 3.60"),
+                ],
             }
         )
     else:
@@ -119,6 +149,22 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 "detail_en": "Para. 3.60: no adjustment merely because a median exists.",
                 "citation": "OECD TPG Rn. 3.60",
                 "citation_en": "OECD TPG para. 3.60",
+                "rows": [
+                    ("Geprüft", "HTPL"),
+                    ("Kennzahl", "Net Cost Plus"),
+                    ("Ergebnis", _pct_de(pl["net_cost_plus"])),
+                    ("Lage", "in der Bandbreite"),
+                    ("Berichtigung", "keine"),
+                    ("Quelle", "OECD-VPL Rn. 3.60"),
+                ],
+                "rows_en": [
+                    ("Tested party", "HTPL"),
+                    ("Indicator", "Net cost plus"),
+                    ("Result", format_pct(pl["net_cost_plus"])),
+                    ("Position", "inside"),
+                    ("Adjustment", "none"),
+                    ("Source", "OECD TPG para. 3.60"),
+                ],
             }
         )
 
@@ -142,6 +188,26 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 ),
                 "citation": "OECD TPG Rn. 2.64 und 3.62; § 1 Abs. 3a AStG",
                 "citation_en": "OECD TPG paras. 2.64 and 3.62; § 1 (3a) AStG",
+                "rows": [
+                    ("Geprüft", "HTUS"),
+                    ("Kennzahl", "Betriebsmarge"),
+                    ("Ergebnis", _pct_de(us["operating_margin"])),
+                    ("Bandbreite", f"{_pct_de(assessment['lrd_range']['low'])} – {_pct_de(assessment['lrd_range']['high'])}"),
+                    ("Median", _pct_de(assessment["lrd_range"]["median"])),
+                    ("Lage", "über"),
+                    ("Punkt", "Restgewinn gehört zum Prinzipal"),
+                    ("Quelle", "OECD-VPL Rn. 2.64 und 3.62; § 1 Abs. 3a AStG"),
+                ],
+                "rows_en": [
+                    ("Tested party", "HTUS"),
+                    ("Indicator", "Operating margin"),
+                    ("Result", format_pct(us["operating_margin"])),
+                    ("Range", f"{format_pct(assessment['lrd_range']['low'])} – {format_pct(assessment['lrd_range']['high'])}"),
+                    ("Median", format_pct(assessment["lrd_range"]["median"])),
+                    ("Position", "above"),
+                    ("Point", "Residual profit belongs to the principal"),
+                    ("Source", "OECD TPG paras. 2.64 and 3.62; § 1 (3a) AStG"),
+                ],
             }
         )
 
@@ -162,6 +228,22 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 ),
                 "citation": "§ 1 Abs. 3c AStG; OECD TPG Rn. 6.32",
                 "citation_en": "§ 1 (3c) AStG; OECD TPG para. 6.32",
+                "rows": [
+                    ("Zahler", "HTPL"),
+                    ("Empfänger", "HTDE"),
+                    ("Lizenz", f"{_eur(pl['royalty'])} EUR"),
+                    ("Profil", "Lohnfertiger, nur für HTDE"),
+                    ("Punkt", "Eigener Geschäftsvorfall, Routinevergütung bleibt"),
+                    ("Quelle", "§ 1 Abs. 3c AStG; OECD-VPL Rn. 6.32"),
+                ],
+                "rows_en": [
+                    ("Payer", "HTPL"),
+                    ("Recipient", "HTDE"),
+                    ("Royalty", _eur_en(pl["royalty"])),
+                    ("Profile", "Contract manufacturer, only for HTDE"),
+                    ("Point", "Separate transaction; routine return stays"),
+                    ("Source", "§ 1 (3c) AStG; OECD TPG para. 6.32"),
+                ],
             }
         )
 
@@ -176,6 +258,18 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 "detail_en": "The transaction matrix requires the contractual basis. The charge is booked. The contract field is empty.",
                 "citation": "§ 90 Abs. 3 AO; BMF-Merkblatt 2. April 2025",
                 "citation_en": "§ 90 (3) AO; BMF leaflet of 2 April 2025",
+                "rows": [
+                    ("Geschäftsvorfall", "Managementumlage"),
+                    ("Gebucht", "ja"),
+                    ("Vertrag", "leer"),
+                    ("Quelle", "§ 90 Abs. 3 AO; BMF-Merkblatt 2. April 2025"),
+                ],
+                "rows_en": [
+                    ("Transaction", "Management charge"),
+                    ("Booked", "yes"),
+                    ("Contract", "blank"),
+                    ("Source", "§ 90 (3) AO; BMF leaflet of 2 April 2025"),
+                ],
             }
         )
 
@@ -204,6 +298,22 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 ),
                 "citation": "OECD TPG Rn. 1.51; Fallnotiz Härtereiprozess",
                 "citation_en": "OECD TPG para. 1.51; case note on the hardening process",
+                "rows": [
+                    ("2023 und 2024", "5,00 %, in der Bandbreite"),
+                    ("2025", "unter der Bandbreite"),
+                    ("Energie", "steigt"),
+                    ("Preis an HTDE", "folgt nicht"),
+                    ("Einordnung", "Preisfehler, keine Know-how-Verlagerung"),
+                    ("Quelle", "OECD-VPL Rn. 1.51"),
+                ],
+                "rows_en": [
+                    ("2023 and 2024", "5.00%, inside the range"),
+                    ("2025", "below the range"),
+                    ("Energy", "up"),
+                    ("Price to HTDE", "does not follow"),
+                    ("Reading", "Pricing failure, not a know-how transfer"),
+                    ("Source", "OECD TPG para. 1.51"),
+                ],
             }
         )
 
@@ -226,6 +336,18 @@ def findings_for(assessment: dict, gaps: list[dict]) -> list[dict]:
                 ),
                 "citation": "§ 1 Abs. 3b AStG",
                 "citation_en": "§ 1 (3b) AStG",
+                "rows": [
+                    ("Ausschließlich für HTDE", "ja"),
+                    ("Fremdüblicher Kostenaufschlag", "nein"),
+                    ("Ausnahme", "nicht erfüllt"),
+                    ("Quelle", "§ 1 Abs. 3b AStG"),
+                ],
+                "rows_en": [
+                    ("Exclusively for HTDE", "yes"),
+                    ("Arm's length cost plus", "no"),
+                    ("Escape", "not met"),
+                    ("Source", "§ 1 (3b) AStG"),
+                ],
             }
         )
     return findings

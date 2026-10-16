@@ -248,6 +248,15 @@ def card(title: str, body: str, kind: str = "") -> str:
     )
 
 
+def workpaper(title: str, rows: list[tuple[str, str]], kind: str = "") -> str:
+    lines = "".join(
+        f"<div class='line'><span>{html.escape(label)}</span><span>{html.escape(value)}</span></div>"
+        for label, value in rows
+    )
+    klass = f"card sheet {kind}".strip()
+    return f"<div class='{klass}'><strong>{html.escape(title)}</strong>{lines}</div>"
+
+
 @st.cache_data(show_spinner=False)
 def cached_case(year: int) -> dict:
     case = run_case(year)
@@ -310,7 +319,10 @@ st.markdown(
         background: white; border: 1px solid #e4d9c8; border-radius: 12px;
         padding: 0.9rem 1rem; min-height: 148px;
     }
-    .card strong {display: block; margin-bottom: 0.25rem;}
+    .card strong {display: block; margin-bottom: 0.45rem;}
+    .sheet {min-height: 0;}
+    .sheet .line {display: grid; grid-template-columns: 13.5rem 1fr; gap: 0.35rem 1rem; padding: 0.22rem 0; border-top: 1px solid #f0e6d8; font-size: 0.95rem;}
+    .sheet .line span:first-child {color: #6d5f54;}
     .warn {border-left: 4px solid #9a3412;}
     .ok {border-left: 4px solid #3f6212;}
     .mid {border-left: 4px solid #a16207;}
@@ -404,9 +416,8 @@ with tab_case:
     st.subheader(f"{S['findings']} {year}")
     for finding in case["findings"]:
         title = finding["title_en"] if lang == "en" else finding["title"]
-        detail = finding["detail_en"] if lang == "en" else finding["detail"]
-        citation = finding.get("citation_en", finding["citation"]) if lang == "en" else finding["citation"]
-        st.markdown(card(title, detail + "  " + citation, SEVERITY.get(finding["severity"], "mid")), unsafe_allow_html=True)
+        rows = finding["rows_en"] if lang == "en" else finding["rows"]
+        st.markdown(workpaper(title, rows, SEVERITY.get(finding["severity"], "mid")), unsafe_allow_html=True)
         st.write("")
 
     st.subheader(S["critic"])

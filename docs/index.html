@@ -57,7 +57,9 @@
     .num { color: var(--accent); font-family: "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.75rem; letter-spacing: 0.12em; }
     .metric span { display: block; color: var(--muted); font-family: "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.85rem; }
     .metric strong { font-size: 1.8rem; letter-spacing: -0.04em; }
-    .finding { border-left: 4px solid var(--accent); }
+    .finding { border-left: 4px solid var(--accent); margin-top: 0.75rem; }
+    .sheet .line { display: grid; grid-template-columns: 14rem 1fr; gap: 0.25rem 1rem; padding: 0.22rem 0; border-top: 1px solid #f0e6d8; font-family: "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.95rem; }
+    .sheet .line span:first-child { color: var(--muted); }
     .note { color: var(--muted); }
     code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: #efe6d8; padding: 0.12rem 0.4rem; border-radius: 6px; }
     footer { padding: 1rem 6vw 2.5rem; color: var(--muted); font-family: "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.92rem; }
@@ -110,9 +112,7 @@
         <article class="card metric"><span id="m3">HTUS operating margin</span><strong>10.17%</strong></article>
         <article class="card metric"><span id="m4">Material findings</span><strong>3</strong></article>
       </div>
-      <article class="card finding"><b id="f1t">Polish plant, below the range</b><span id="f1b">Narrowed range 4.20%–6.80%, median 5.40%. Gap to the median: €272,000 more operating profit. § 1 (3a) AStG.</span></article>
-      <article class="card finding" style="margin-top:0.75rem"><b id="f2t">US distributor, above the range</b><span id="f2b">Distributor range 2.10%–3.90%, median 3.00%. Residual profit does not belong in the routine seller.</span></article>
-      <article class="card finding" style="margin-top:0.75rem"><b id="f3t">Two documentation gaps</b><span id="f3b">A royalty of €80,000 sits on a contract manufacturer. The management charge has no contract name. The loan volume is €2,000,000 and the interest is €20,000.</span></article>
+      <div id="sheets"></div>
     </section>
     <section id="use">
       <div class="grid2">
@@ -147,12 +147,11 @@
         hAnalysis: "The 2025 file, in one view",
         analysisNote: "Härtetechnik AG is invented, and so are the peers. In 2023 and 2024 the Polish net cost plus is 5.00% and inside the range. In 2025 the furnace energy rises and the price does not follow.",
         m1: "Bookings", m2: "HTPL net cost plus", m3: "HTUS operating margin", m4: "Material findings",
-        f1t: "Polish plant, below the range",
-        f1b: "Narrowed range 4.20%–6.80%, median 5.40%. Gap to the median: €272,000 more operating profit. § 1 (3a) AStG.",
-        f2t: "US distributor, above the range",
-        f2b: "Distributor range 2.10%–3.90%, median 3.00%. Residual profit does not belong in the routine seller.",
-        f3t: "Two documentation gaps",
-        f3b: "A royalty of €80,000 sits on a contract manufacturer. The management charge has no contract name. The loan volume is €2,000,000 and the interest is €20,000.",
+        sheets: [
+          ["HTPL net cost plus 2.00% is below the range", [["Tested party","HTPL"],["Indicator","Net cost plus"],["Result","2.00%"],["Range","4.20% – 6.80%"],["Median","5.40%"],["Position","below"],["Adjustment","€272,000 more operating profit"],["Source","§ 1 (3a) AStG; OECD TPG paras. 2.64 and 3.60"]]],
+          ["HTUS operating margin 10.17% is above the range", [["Tested party","HTUS"],["Indicator","Operating margin"],["Result","10.17%"],["Range","2.10% – 3.90%"],["Median","3.00%"],["Position","above"],["Point","Residual profit belongs to the principal"],["Source","OECD TPG paras. 2.64 and 3.62"]]],
+          ["A royalty does not sit with the contract manufacturer", [["Payer","HTPL"],["Recipient","HTDE"],["Royalty","€80,000"],["Profile","Contract manufacturer, only for HTDE"],["Contract on the management charge","blank"],["Loan volume / interest","€2,000,000 / €20,000"],["Source","§ 1 (3c) AStG; § 90 (3) AO"]]]
+        ],
         hUse: "How a team would use the bench",
         useBody: "Open a year. Read the function before the margin. Screen a new company description against the contract-manufacturer profile. Ask a guideline question and see the paragraph, the graph edge, and the critic on the same page. Add a text extract for that session if the note you need is not already in the index. The OECD book itself stays out of the repository.",
         hRun: "Open the interactive desk",
@@ -175,12 +174,11 @@
         hAnalysis: "Die Akte 2025, in einem Blick",
         analysisNote: "Härtetechnik AG ist erfunden, die Vergleichsunternehmen auch. 2023 und 2024 liegt die polnische Nettokostenaufschlagsmarge bei 5,00 % in der Bandbreite. 2025 steigen die Energiekosten der Öfen, der Preis nicht.",
         m1: "Buchungen", m2: "HTPL Net Cost Plus", m3: "HTUS Betriebsmarge", m4: "Befunde mit Gewicht",
-        f1t: "Polnisches Werk, unter der Bandbreite",
-        f1b: "Eingeengte Bandbreite 4,20 %–6,80 %, Median 5,40 %. Lücke zum Median: 272.000 € mehr operatives Ergebnis. § 1 Abs. 3a AStG.",
-        f2t: "US-Vertrieb, über der Bandbreite",
-        f2b: "Vertriebsbandbreite 2,10 %–3,90 %, Median 3,00 %. Restgewinn gehört nicht in den Routinevertrieb.",
-        f3t: "Zwei Lücken in der Dokumentation",
-        f3b: "Eine Lizenz von 80.000 € liegt auf einem Lohnfertiger. Die Managementumlage hat keinen Vertragsnamen. Das Darlehen hat ein Volumen von 2.000.000 € und Zinsen von 20.000 €.",
+        sheets: [
+          ["HTPL Net Cost Plus 2,00 % liegt unter der Bandbreite", [["Geprüft","HTPL"],["Kennzahl","Net Cost Plus"],["Ergebnis","2,00 %"],["Bandbreite","4,20 % – 6,80 %"],["Median","5,40 %"],["Lage","unter"],["Berichtigung","272.000 € zusätzliches operatives Ergebnis"],["Quelle","§ 1 Abs. 3a AStG; OECD-VPL Rn. 2.64 und 3.60"]]],
+          ["HTUS Betriebsmarge 10,17 % liegt über der Bandbreite", [["Geprüft","HTUS"],["Kennzahl","Betriebsmarge"],["Ergebnis","10,17 %"],["Bandbreite","2,10 % – 3,90 %"],["Median","3,00 %"],["Lage","über"],["Punkt","Restgewinn gehört zum Prinzipal"],["Quelle","OECD-VPL Rn. 2.64 und 3.62"]]],
+          ["Lizenz und Lohnfertiger-Charakterisierung passen nicht zusammen", [["Zahler","HTPL"],["Empfänger","HTDE"],["Lizenz","80.000 €"],["Profil","Lohnfertiger, nur für HTDE"],["Vertrag der Managementumlage","leer"],["Darlehensvolumen / Zinsen","2.000.000 € / 20.000 €"],["Quelle","§ 1 Abs. 3c AStG; § 90 Abs. 3 AO"]]]
+        ],
         hUse: "Wie ein Team die Werkbank benutzt",
         useBody: "Ein Jahr öffnen. Die Funktion vor der Marge lesen. Eine neue Unternehmensbeschreibung gegen das Lohnfertigerprofil screenen. Eine Frage an die Regelwerke stellen und Randnummer, Graphkante und Kritiker auf derselben Seite sehen. Einen Textauszug für diese Sitzung hinzufügen, wenn die Notiz noch nicht im Index steht. Der OECD-Volltext bleibt außerhalb des Repository.",
         hRun: "Den interaktiven Schreibtisch öffnen",
@@ -196,18 +194,28 @@
       s4t: "s4t", s4b: "s4b", s5t: "s5t", s5b: "s5b", s6t: "s6t", s6b: "s6b",
       hAnalysis: "h-analysis", analysisNote: "analysis-note",
       m1: "m1", m2: "m2", m3: "m3", m4: "m4",
-      f1t: "f1t", f1b: "f1b", f2t: "f2t", f2b: "f2b", f3t: "f3t", f3b: "f3b",
       hUse: "h-use", useBody: "use-body", hRun: "h-run", runBody: "run-body", foot: "foot"
     };
+    function escapeText(value) {
+      return value.replace(/[&<>]/g, (ch) => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[ch]));
+    }
+    function renderSheets(lang) {
+      document.getElementById("sheets").innerHTML = copy[lang].sheets.map(([title, rows]) => {
+        const lines = rows.map(([label, value]) => `<div class="line"><span>${escapeText(label)}</span><span>${escapeText(value)}</span></div>`).join("");
+        return `<article class="card finding sheet"><b>${escapeText(title)}</b>${lines}</article>`;
+      }).join("");
+    }
     function setLang(lang) {
       const text = copy[lang];
       Object.entries(map).forEach(([key, id]) => { document.getElementById(id).textContent = text[key]; });
+      renderSheets(lang);
       document.documentElement.lang = lang;
       document.getElementById("en").setAttribute("aria-pressed", lang === "en" ? "true" : "false");
       document.getElementById("de").setAttribute("aria-pressed", lang === "de" ? "true" : "false");
     }
     document.getElementById("en").addEventListener("click", () => setLang("en"));
     document.getElementById("de").addEventListener("click", () => setLang("de"));
+    renderSheets("en");
   </script>
 </body>
 </html>
