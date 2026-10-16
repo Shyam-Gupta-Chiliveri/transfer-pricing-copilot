@@ -1,0 +1,7 @@
+services:
+  desk:
+    build: .
+    image: transfer-pricing-copilot:latest
+    ports:
+      - "8501:8501"
+    restart: unless-stopped

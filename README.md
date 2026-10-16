@@ -1,5 +1,9 @@
 # Transfer Pricing Copilot — OECD-Regelwerks-RAG & Benchmarking
 
+**Live public page:** [https://shyam-gupta-chiliveri.github.io/transfer-pricing-copilot/](https://shyam-gupta-chiliveri.github.io/transfer-pricing-copilot/)
+
+That page is the brief a recruiter can open without installing anything. The interactive desk runs in Docker.
+
 Local desk for one transfer-pricing case. It answers guideline questions with paragraph citations, screens company descriptions, and tests margins for a fictional automotive hardening group.
 
 This is a portfolio project. It is not tax advice, not a client engagement, and not a claim of transfer-pricing work experience.
@@ -27,6 +31,16 @@ That is the point of using a hardening plant. The economics are the same kind of
 - The § 1(3b) AStG escape from a transfer-package valuation needs both exclusivity and an arm's length cost-plus return. Exclusivity is met. The 2025 return is not.
 
 ## Run it
+
+Docker is the way to open the interactive desk:
+
+```bash
+docker compose up --build
+```
+
+Then open http://127.0.0.1:8501. Stop it with `docker compose down`.
+
+Without Docker:
 
 ```bash
 python3 -m venv .venv
@@ -94,7 +108,7 @@ TNMM with net cost plus is used for HTPL because gross mark-ups of hardening pla
 
 ## CV line
 
-> Transfer Pricing Copilot. Local RAG over original study notes on the OECD Transfer Pricing Guidelines 2022, § 1 of the German Foreign Tax Act, and the 2023 administrative principles, with paragraph citations (45/45 top-3 on a published question set). TF-IDF screening of company descriptions and an interquartile margin test on the fictional Härtetechnik case (TNMM, net cost plus). Synthetic bookings. A project, not a client engagement.
+> Transfer Pricing Copilot. Local RAG over original study notes on the OECD Transfer Pricing Guidelines 2022, § 1 of the German Foreign Tax Act, and the 2023 administrative principles, with paragraph citations (45/45 top-3 on a published question set). TF-IDF screening of company descriptions and an interquartile margin test on the fictional Härtetechnik case (TNMM, net cost plus). Synthetic bookings. A project, not a client engagement. Public page: https://shyam-gupta-chiliveri.github.io/transfer-pricing-copilot/
 
 > Transfer Pricing Copilot – OECD-Regelwerks-RAG & Benchmarking. RAG über eigene Studiennotizen zu den OECD-Verrechnungspreisleitlinien 2022, § 1 AStG und den VWG VP 2023 mit Randnummern (45/45 Top-3 auf dem veröffentlichten Fragensatz). Screening von Unternehmensbeschreibungen (TF-IDF, logistische Regression) und Interquartilstest nach § 1 Abs. 3a AStG am Fall Härtetechnik AG (TNMM, Net Cost Plus). Synthetische Buchungen, kein Mandant.
 
