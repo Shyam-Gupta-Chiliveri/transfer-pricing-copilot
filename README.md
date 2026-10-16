@@ -38,7 +38,7 @@ Docker is the way to open the interactive desk:
 docker compose up --build
 ```
 
-Then open http://127.0.0.1:8501. Stop it with `docker compose down`.
+Then open http://127.0.0.1:8510. Stop it with `docker compose down`. Port 8510 is used on the host so this desk does not take 8501 from another local app.
 
 Without Docker:
 
