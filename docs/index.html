@@ -34,6 +34,7 @@
     .brand { font-family: "Segoe UI", Helvetica, Arial, sans-serif; font-weight: 650; letter-spacing: -0.03em; text-decoration: none; }
     .nav-links { display: flex; align-items: center; gap: 1.1rem; font-family: "Segoe UI", Helvetica, Arial, sans-serif; font-size: 0.92rem; }
     .nav-links a { text-decoration: none; color: var(--muted); }
+    .nav-links a.keep { color: var(--ink); font-weight: 650; }
     .nav-links a:hover { color: var(--ink); }
     .langs { display: flex; border: 1px solid #d7cbb8; border-radius: 999px; overflow: hidden; background: white; }
     .langs button { border: 0; background: transparent; padding: 0.32rem 0.75rem; font: inherit; cursor: pointer; }
@@ -73,6 +74,7 @@
   <header class="nav">
     <a class="brand" href="#top">Transfer Pricing Copilot</a>
     <div class="nav-links">
+      <a class="keep" href="http://127.0.0.1:8510" id="nav-app">Open the app</a>
       <a href="#method" id="nav-method">Method</a>
       <a href="#analysis" id="nav-analysis">Analysis</a>
       <a href="#use" id="nav-use">Use</a>
@@ -88,7 +90,8 @@
       <h1 id="title">A review, from the function to the file.</h1>
       <p class="lead" id="lead">Peers are screened before a range is trusted. A paragraph is shown only when it was retrieved. The worked example is one fictional hardening group, so every number on this page can be checked.</p>
       <div class="actions">
-        <a class="primary" href="https://github.com/Shyam-Gupta-Chiliveri/transfer-pricing-copilot" id="repo">GitHub repository</a>
+        <a class="primary" href="http://127.0.0.1:8510" id="open-app">Open the app</a>
+        <a class="secondary" href="https://github.com/Shyam-Gupta-Chiliveri/transfer-pricing-copilot" id="repo">GitHub repository</a>
         <a class="secondary" href="#analysis" id="see">See the 2025 analysis</a>
       </div>
     </div>
@@ -122,8 +125,9 @@
         </div>
         <article class="card">
           <b id="h-run">Open the interactive desk</b>
+          <p><a href="http://127.0.0.1:8510">http://127.0.0.1:8510</a></p>
           <p><code>docker compose up --build</code></p>
-          <p id="run-body">Then open http://127.0.0.1:8510. English and Deutsch are at the top. Citation accuracy on the 45 published questions is 45/45. Screening five-fold F1 on the portfolio labels is about 94%.</p>
+          <p id="run-body">The link opens the desk on this computer, after Docker is running. English and Deutsch are at the top. Citation accuracy on the 45 published questions is 45/45. Screening five-fold F1 on the portfolio labels is about 94%.</p>
         </article>
       </div>
     </section>
@@ -135,8 +139,8 @@
         kicker: "Portfolio · no engagement · not tax advice",
         title: "A review, from the function to the file.",
         lead: "Peers are screened before a range is trusted. A paragraph is shown only when it was retrieved. The worked example is one fictional hardening group, so every number on this page can be checked.",
-        repo: "GitHub repository", see: "See the 2025 analysis",
-        navMethod: "Method", navAnalysis: "Analysis", navUse: "Use",
+        openApp: "Open the app", repo: "GitHub repository", see: "See the 2025 analysis",
+        navApp: "Open the app", navMethod: "Method", navAnalysis: "Analysis", navUse: "Use",
         hMethod: "What the bench actually does",
         s1t: "Characterize", s1b: "Who owns the recipe, and who faces the customer.",
         s2t: "Choose the method", s2b: "TNMM when gross mark-ups across hardening plants are not comparable.",
@@ -155,15 +159,15 @@
         hUse: "How a team would use the bench",
         useBody: "Open a year. Read the function before the margin. Screen a new company description against the contract-manufacturer profile. Ask a guideline question and see the paragraph, the graph edge, and the critic on the same page. Add a text extract for that session if the note you need is not already in the index. The OECD book itself stays out of the repository.",
         hRun: "Open the interactive desk",
-        runBody: "Then open http://127.0.0.1:8510. English and Deutsch are at the top. Citation accuracy on the 45 published questions is 45/45. Screening five-fold F1 on the portfolio labels is about 94%.",
+        runBody: "The link opens the desk on this computer, after Docker is running. English and Deutsch are at the top. Citation accuracy on the 45 published questions is 45/45. Screening five-fold F1 on the portfolio labels is about 94%.",
         foot: "Designed case, synthetic bookings, original study notes. Not a client file and not tax advice."
       },
       de: {
         kicker: "Portfolio · kein Mandat · keine Steuerberatung",
         title: "Eine Prüfung, von der Funktion bis zur Akte.",
         lead: "Vergleichsunternehmen werden gescreent, bevor eine Bandbreite gilt. Eine Randnummer erscheint nur, wenn sie gefunden wurde. Das Beispiel ist ein erfundener Härtereikonzern, damit jede Zahl auf dieser Seite prüfbar ist.",
-        repo: "GitHub-Repository", see: "Die Analyse 2025",
-        navMethod: "Methode", navAnalysis: "Analyse", navUse: "Nutzen",
+        openApp: "App öffnen", repo: "GitHub-Repository", see: "Die Analyse 2025",
+        navApp: "App öffnen", navMethod: "Methode", navAnalysis: "Analyse", navUse: "Nutzen",
         hMethod: "Was die Werkbank tut",
         s1t: "Charakterisieren", s1b: "Wer die Rezeptur besitzt und wer dem Kunden gegenübersteht.",
         s2t: "Methode wählen", s2b: "TNMM, wenn Bruttoaufschläge zwischen Härtereien nicht vergleichbar sind.",
@@ -182,13 +186,13 @@
         hUse: "Wie ein Team die Werkbank benutzt",
         useBody: "Ein Jahr öffnen. Die Funktion vor der Marge lesen. Eine neue Unternehmensbeschreibung gegen das Lohnfertigerprofil screenen. Eine Frage an die Regelwerke stellen und Randnummer, Graphkante und Kritiker auf derselben Seite sehen. Einen Textauszug für diese Sitzung hinzufügen, wenn die Notiz noch nicht im Index steht. Der OECD-Volltext bleibt außerhalb des Repository.",
         hRun: "Den interaktiven Schreibtisch öffnen",
-        runBody: "Danach http://127.0.0.1:8510 öffnen. Deutsch und English stehen oben. Die Zitiergenauigkeit auf den 45 veröffentlichten Fragen ist 45/45. Das Screening erreicht auf den Portfolio-Labels etwa 94 % Fünf-Falten-F1.",
+        runBody: "Der Link öffnet den Schreibtisch auf diesem Computer, sobald Docker läuft. Deutsch und English stehen oben. Die Zitiergenauigkeit auf den 45 veröffentlichten Fragen ist 45/45. Das Screening erreicht auf den Portfolio-Labels etwa 94 % Fünf-Falten-F1.",
         foot: "Konstruierter Fall, synthetische Buchungen, eigene Studiennotizen. Keine Mandantenakte und keine Steuerberatung."
       }
     };
     const map = {
-      kicker: "kicker", title: "title", lead: "lead", repo: "repo", see: "see",
-      navMethod: "nav-method", navAnalysis: "nav-analysis", navUse: "nav-use",
+      kicker: "kicker", title: "title", lead: "lead", openApp: "open-app", repo: "repo", see: "see",
+      navApp: "nav-app", navMethod: "nav-method", navAnalysis: "nav-analysis", navUse: "nav-use",
       hMethod: "h-method",
       s1t: "s1t", s1b: "s1b", s2t: "s2t", s2b: "s2b", s3t: "s3t", s3b: "s3b",
       s4t: "s4t", s4b: "s4b", s5t: "s5t", s5b: "s5b", s6t: "s6t", s6b: "s6b",
