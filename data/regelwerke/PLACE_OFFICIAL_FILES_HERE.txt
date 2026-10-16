@@ -1,0 +1,13 @@
+Official OECD Transfer Pricing Guidelines are copyrighted and are not included.
+
+Drop your own local copies here if you want them added to the index:
+
+- OECD_TPG_2022.pdf
+- AStG text or XML from https://www.gesetze-im-internet.de/astg/
+- FVerlV and GAufzV from the same site
+- VWG_VP_2023.pdf from bundesfinanzministerium.de (letter of 6 June 2023)
+
+The running demo uses original study notes in tp_copilot/knowledge/notes.py.
+They cite paragraph numbers. They are not a reproduction of the official text.
+
+Restart the app after adding a file. PDF, TXT, XML and MD are picked up.

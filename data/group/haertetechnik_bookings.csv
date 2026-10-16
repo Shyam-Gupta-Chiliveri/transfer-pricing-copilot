@@ -1,0 +1,613 @@
+entity,entity_name,country,year,period,posting_date,document_no,partner,account,side,amount_eur,transaction_type,contract_id,description
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00001,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00002,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00003,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00004,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00005,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00006,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00007,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00008,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00009,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00010,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00011,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00012,HTDE,REV_GOODS,revenue,612500,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00013,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00014,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00015,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00016,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00017,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00018,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00019,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00020,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00021,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00022,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00023,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00024,HTDE,COST_MATERIAL,cost,350000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00025,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00026,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00027,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00028,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00029,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00030,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00031,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00032,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00033,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00034,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00035,HTDE,COST_ENERGY,cost,31666,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00036,HTDE,COST_ENERGY,cost,31674,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00037,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00038,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00039,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00040,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00041,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00042,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00043,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00044,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00045,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00046,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00047,HTDE,COST_LABOR,cost,141666,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00048,HTDE,COST_LABOR,cost,141674,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00049,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00050,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00051,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00052,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00053,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00054,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00055,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00056,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00057,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00058,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00059,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00060,HTDE,COST_OVERHEAD,cost,60000,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00061,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00062,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00063,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00064,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00065,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00066,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00067,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00068,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00069,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00070,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00071,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00072,HTDE,COST_ROYALTY,cost,6674,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,1,2023-01-28,PL00073,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,2,2023-02-28,PL00074,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,3,2023-03-28,PL00075,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,4,2023-04-28,PL00076,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,5,2023-05-28,PL00077,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,6,2023-06-28,PL00078,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,7,2023-07-28,PL00079,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,8,2023-08-28,PL00080,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,9,2023-09-28,PL00081,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,10,2023-10-28,PL00082,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,11,2023-11-28,PL00083,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2023,12,2023-12-28,PL00084,HTDE,COST_INTEREST,cost,1674,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00085,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00086,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00087,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00088,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00089,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00090,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00091,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00092,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00093,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00094,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00095,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00096,HTDE,REV_GOODS,revenue,656250,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00097,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00098,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00099,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00100,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00101,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00102,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00103,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00104,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00105,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00106,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00107,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00108,HTDE,COST_MATERIAL,cost,375000,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00109,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00110,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00111,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00112,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00113,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00114,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00115,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00116,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00117,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00118,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00119,HTDE,COST_ENERGY,cost,33333,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00120,HTDE,COST_ENERGY,cost,33337,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00121,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00122,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00123,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00124,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00125,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00126,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00127,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00128,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00129,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00130,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00131,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00132,HTDE,COST_LABOR,cost,150000,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00133,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00134,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00135,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00136,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00137,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00138,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00139,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00140,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00141,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00142,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00143,HTDE,COST_OVERHEAD,cost,66666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00144,HTDE,COST_OVERHEAD,cost,66674,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00145,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00146,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00147,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00148,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00149,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00150,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00151,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00152,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00153,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00154,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00155,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00156,HTDE,COST_ROYALTY,cost,6674,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,1,2024-01-28,PL00157,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,2,2024-02-28,PL00158,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,3,2024-03-28,PL00159,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,4,2024-04-28,PL00160,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,5,2024-05-28,PL00161,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,6,2024-06-28,PL00162,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,7,2024-07-28,PL00163,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,8,2024-08-28,PL00164,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,9,2024-09-28,PL00165,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,10,2024-10-28,PL00166,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,11,2024-11-28,PL00167,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2024,12,2024-12-28,PL00168,HTDE,COST_INTEREST,cost,1674,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00169,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00170,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00171,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00172,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00173,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00174,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00175,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00176,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00177,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00178,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00179,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00180,HTDE,REV_GOODS,revenue,680000,goods,IC-GOODS-PL-DE,Warenlieferung gehärteter Teile
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00181,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00182,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00183,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00184,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00185,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00186,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00187,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00188,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00189,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00190,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00191,HTDE,COST_MATERIAL,cost,366666,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00192,HTDE,COST_MATERIAL,cost,366674,operating_cost,IC-GOODS-PL-DE,Materialeinsatz
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00193,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00194,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00195,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00196,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00197,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00198,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00199,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00200,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00201,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00202,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00203,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00204,HTDE,COST_ENERGY,cost,100000,operating_cost,IC-GOODS-PL-DE,Energie Induktionsofen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00205,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00206,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00207,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00208,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00209,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00210,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00211,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00212,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00213,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00214,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00215,HTDE,COST_LABOR,cost,158333,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00216,HTDE,COST_LABOR,cost,158337,operating_cost,IC-GOODS-PL-DE,Fertigungslohn
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00217,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00218,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00219,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00220,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00221,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00222,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00223,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00224,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00225,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00226,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00227,HTDE,COST_OVERHEAD,cost,41666,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00228,HTDE,COST_OVERHEAD,cost,41674,operating_cost,IC-GOODS-PL-DE,Fertigungsabweichungen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00229,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00230,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00231,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00232,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00233,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00234,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00235,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00236,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00237,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00238,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00239,HTDE,COST_ROYALTY,cost,6666,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00240,HTDE,COST_ROYALTY,cost,6674,royalty,IC-LIC-DE-PL,Lizenz Prozess-Know-how
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,1,2025-01-28,PL00241,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,2,2025-02-28,PL00242,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,3,2025-03-28,PL00243,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,4,2025-04-28,PL00244,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,5,2025-05-28,PL00245,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,6,2025-06-28,PL00246,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,7,2025-07-28,PL00247,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,8,2025-08-28,PL00248,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,9,2025-09-28,PL00249,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,10,2025-10-28,PL00250,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,11,2025-11-28,PL00251,HTDE,COST_INTEREST,cost,1666,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTPL,Härtetechnik Polska sp. z o.o.,Polen,2025,12,2025-12-28,PL00252,HTDE,COST_INTEREST,cost,1674,loan_interest,IC-LOAN-DE-PL,Zins Gesellschafterdarlehen
+HTUS,Härtetechnik North America Inc.,USA,2023,1,2023-01-28,US00253,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,2,2023-02-28,US00254,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,3,2023-03-28,US00255,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,4,2023-04-28,US00256,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,5,2023-05-28,US00257,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,6,2023-06-28,US00258,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,7,2023-07-28,US00259,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,8,2023-08-28,US00260,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,9,2023-09-28,US00261,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,10,2023-10-28,US00262,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,11,2023-11-28,US00263,OEM,REV_THIRD,revenue,791666,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,12,2023-12-28,US00264,OEM,REV_THIRD,revenue,791674,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2023,1,2023-01-28,US00265,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,2,2023-02-28,US00266,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,3,2023-03-28,US00267,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,4,2023-04-28,US00268,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,5,2023-05-28,US00269,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,6,2023-06-28,US00270,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,7,2023-07-28,US00271,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,8,2023-08-28,US00272,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,9,2023-09-28,US00273,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,10,2023-10-28,US00274,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,11,2023-11-28,US00275,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,12,2023-12-28,US00276,HTDE,COST_GOODS,cost,725000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2023,1,2023-01-28,US00277,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,2,2023-02-28,US00278,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,3,2023-03-28,US00279,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,4,2023-04-28,US00280,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,5,2023-05-28,US00281,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,6,2023-06-28,US00282,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,7,2023-07-28,US00283,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,8,2023-08-28,US00284,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,9,2023-09-28,US00285,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,10,2023-10-28,US00286,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,11,2023-11-28,US00287,OEM,COST_OPEX,cost,31666,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,12,2023-12-28,US00288,OEM,COST_OPEX,cost,31674,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2023,1,2023-01-28,US00289,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,2,2023-02-28,US00290,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,3,2023-03-28,US00291,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,4,2023-04-28,US00292,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,5,2023-05-28,US00293,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,6,2023-06-28,US00294,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,7,2023-07-28,US00295,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,8,2023-08-28,US00296,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,9,2023-09-28,US00297,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,10,2023-10-28,US00298,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,11,2023-11-28,US00299,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2023,12,2023-12-28,US00300,HTDE,COST_MGMT,cost,11250,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,1,2024-01-28,US00301,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,2,2024-02-28,US00302,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,3,2024-03-28,US00303,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,4,2024-04-28,US00304,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,5,2024-05-28,US00305,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,6,2024-06-28,US00306,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,7,2024-07-28,US00307,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,8,2024-08-28,US00308,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,9,2024-09-28,US00309,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,10,2024-10-28,US00310,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,11,2024-11-28,US00311,OEM,REV_THIRD,revenue,833333,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,12,2024-12-28,US00312,OEM,REV_THIRD,revenue,833337,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2024,1,2024-01-28,US00313,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,2,2024-02-28,US00314,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,3,2024-03-28,US00315,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,4,2024-04-28,US00316,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,5,2024-05-28,US00317,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,6,2024-06-28,US00318,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,7,2024-07-28,US00319,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,8,2024-08-28,US00320,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,9,2024-09-28,US00321,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,10,2024-10-28,US00322,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,11,2024-11-28,US00323,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,12,2024-12-28,US00324,HTDE,COST_GOODS,cost,760000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2024,1,2024-01-28,US00325,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,2,2024-02-28,US00326,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,3,2024-03-28,US00327,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,4,2024-04-28,US00328,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,5,2024-05-28,US00329,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,6,2024-06-28,US00330,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,7,2024-07-28,US00331,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,8,2024-08-28,US00332,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,9,2024-09-28,US00333,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,10,2024-10-28,US00334,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,11,2024-11-28,US00335,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,12,2024-12-28,US00336,OEM,COST_OPEX,cost,33337,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2024,1,2024-01-28,US00337,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,2,2024-02-28,US00338,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,3,2024-03-28,US00339,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,4,2024-04-28,US00340,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,5,2024-05-28,US00341,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,6,2024-06-28,US00342,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,7,2024-07-28,US00343,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,8,2024-08-28,US00344,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,9,2024-09-28,US00345,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,10,2024-10-28,US00346,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,11,2024-11-28,US00347,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2024,12,2024-12-28,US00348,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,1,2025-01-28,US00349,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,2,2025-02-28,US00350,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,3,2025-03-28,US00351,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,4,2025-04-28,US00352,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,5,2025-05-28,US00353,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,6,2025-06-28,US00354,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,7,2025-07-28,US00355,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,8,2025-08-28,US00356,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,9,2025-09-28,US00357,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,10,2025-10-28,US00358,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,11,2025-11-28,US00359,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,12,2025-12-28,US00360,OEM,REV_THIRD,revenue,1000000,third_party_sale,THIRD-OEM,OEM-Umsatz Detroit
+HTUS,Härtetechnik North America Inc.,USA,2025,1,2025-01-28,US00361,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,2,2025-02-28,US00362,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,3,2025-03-28,US00363,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,4,2025-04-28,US00364,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,5,2025-05-28,US00365,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,6,2025-06-28,US00366,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,7,2025-07-28,US00367,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,8,2025-08-28,US00368,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,9,2025-09-28,US00369,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,10,2025-10-28,US00370,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,11,2025-11-28,US00371,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,12,2025-12-28,US00372,HTDE,COST_GOODS,cost,850000,goods,IC-GOODS-DE-US,Wareneinkauf von HTDE
+HTUS,Härtetechnik North America Inc.,USA,2025,1,2025-01-28,US00373,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,2,2025-02-28,US00374,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,3,2025-03-28,US00375,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,4,2025-04-28,US00376,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,5,2025-05-28,US00377,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,6,2025-06-28,US00378,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,7,2025-07-28,US00379,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,8,2025-08-28,US00380,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,9,2025-09-28,US00381,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,10,2025-10-28,US00382,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,11,2025-11-28,US00383,OEM,COST_OPEX,cost,33333,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,12,2025-12-28,US00384,OEM,COST_OPEX,cost,33337,operating_cost,THIRD-OEM,Vertriebsbetriebskosten
+HTUS,Härtetechnik North America Inc.,USA,2025,1,2025-01-28,US00385,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,2,2025-02-28,US00386,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,3,2025-03-28,US00387,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,4,2025-04-28,US00388,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,5,2025-05-28,US00389,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,6,2025-06-28,US00390,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,7,2025-07-28,US00391,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,8,2025-08-28,US00392,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,9,2025-09-28,US00393,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,10,2025-10-28,US00394,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,11,2025-11-28,US00395,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTUS,Härtetechnik North America Inc.,USA,2025,12,2025-12-28,US00396,HTDE,COST_MGMT,cost,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,1,2023-01-28,DE00397,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,2,2023-02-28,DE00398,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,3,2023-03-28,DE00399,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,4,2023-04-28,DE00400,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,5,2023-05-28,DE00401,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,6,2023-06-28,DE00402,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,7,2023-07-28,DE00403,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,8,2023-08-28,DE00404,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,9,2023-09-28,DE00405,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,10,2023-10-28,DE00406,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,11,2023-11-28,DE00407,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,12,2023-12-28,DE00408,HTPL,COST_GOODS_PL,cost,612500,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2023,1,2023-01-28,DE00409,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,2,2023-02-28,DE00410,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,3,2023-03-28,DE00411,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,4,2023-04-28,DE00412,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,5,2023-05-28,DE00413,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,6,2023-06-28,DE00414,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,7,2023-07-28,DE00415,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,8,2023-08-28,DE00416,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,9,2023-09-28,DE00417,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,10,2023-10-28,DE00418,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,11,2023-11-28,DE00419,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,12,2023-12-28,DE00420,HTUS,REV_GOODS_US,revenue,725000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2023,1,2023-01-28,DE00421,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,2,2023-02-28,DE00422,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,3,2023-03-28,DE00423,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,4,2023-04-28,DE00424,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,5,2023-05-28,DE00425,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,6,2023-06-28,DE00426,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,7,2023-07-28,DE00427,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,8,2023-08-28,DE00428,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,9,2023-09-28,DE00429,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,10,2023-10-28,DE00430,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,11,2023-11-28,DE00431,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,12,2023-12-28,DE00432,HTPL,REV_ROYALTY,revenue,6674,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2023,1,2023-01-28,DE00433,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,2,2023-02-28,DE00434,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,3,2023-03-28,DE00435,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,4,2023-04-28,DE00436,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,5,2023-05-28,DE00437,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,6,2023-06-28,DE00438,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,7,2023-07-28,DE00439,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,8,2023-08-28,DE00440,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,9,2023-09-28,DE00441,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,10,2023-10-28,DE00442,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,11,2023-11-28,DE00443,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,12,2023-12-28,DE00444,HTUS,REV_MGMT,revenue,11250,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2023,1,2023-01-28,DE00445,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,2,2023-02-28,DE00446,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,3,2023-03-28,DE00447,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,4,2023-04-28,DE00448,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,5,2023-05-28,DE00449,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,6,2023-06-28,DE00450,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,7,2023-07-28,DE00451,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,8,2023-08-28,DE00452,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,9,2023-09-28,DE00453,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,10,2023-10-28,DE00454,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,11,2023-11-28,DE00455,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,12,2023-12-28,DE00456,HTPL,REV_INTEREST,revenue,1674,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2023,1,2023-01-28,DE00457,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,2,2023-02-28,DE00458,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,3,2023-03-28,DE00459,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,4,2023-04-28,DE00460,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,5,2023-05-28,DE00461,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,6,2023-06-28,DE00462,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,7,2023-07-28,DE00463,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,8,2023-08-28,DE00464,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,9,2023-09-28,DE00465,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,10,2023-10-28,DE00466,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,11,2023-11-28,DE00467,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2023,12,2023-12-28,DE00468,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,1,2024-01-28,DE00469,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,2,2024-02-28,DE00470,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,3,2024-03-28,DE00471,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,4,2024-04-28,DE00472,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,5,2024-05-28,DE00473,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,6,2024-06-28,DE00474,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,7,2024-07-28,DE00475,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,8,2024-08-28,DE00476,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,9,2024-09-28,DE00477,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,10,2024-10-28,DE00478,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,11,2024-11-28,DE00479,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,12,2024-12-28,DE00480,HTPL,COST_GOODS_PL,cost,656250,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2024,1,2024-01-28,DE00481,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,2,2024-02-28,DE00482,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,3,2024-03-28,DE00483,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,4,2024-04-28,DE00484,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,5,2024-05-28,DE00485,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,6,2024-06-28,DE00486,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,7,2024-07-28,DE00487,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,8,2024-08-28,DE00488,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,9,2024-09-28,DE00489,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,10,2024-10-28,DE00490,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,11,2024-11-28,DE00491,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,12,2024-12-28,DE00492,HTUS,REV_GOODS_US,revenue,760000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2024,1,2024-01-28,DE00493,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,2,2024-02-28,DE00494,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,3,2024-03-28,DE00495,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,4,2024-04-28,DE00496,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,5,2024-05-28,DE00497,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,6,2024-06-28,DE00498,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,7,2024-07-28,DE00499,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,8,2024-08-28,DE00500,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,9,2024-09-28,DE00501,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,10,2024-10-28,DE00502,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,11,2024-11-28,DE00503,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,12,2024-12-28,DE00504,HTPL,REV_ROYALTY,revenue,6674,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2024,1,2024-01-28,DE00505,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,2,2024-02-28,DE00506,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,3,2024-03-28,DE00507,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,4,2024-04-28,DE00508,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,5,2024-05-28,DE00509,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,6,2024-06-28,DE00510,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,7,2024-07-28,DE00511,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,8,2024-08-28,DE00512,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,9,2024-09-28,DE00513,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,10,2024-10-28,DE00514,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,11,2024-11-28,DE00515,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,12,2024-12-28,DE00516,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2024,1,2024-01-28,DE00517,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,2,2024-02-28,DE00518,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,3,2024-03-28,DE00519,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,4,2024-04-28,DE00520,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,5,2024-05-28,DE00521,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,6,2024-06-28,DE00522,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,7,2024-07-28,DE00523,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,8,2024-08-28,DE00524,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,9,2024-09-28,DE00525,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,10,2024-10-28,DE00526,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,11,2024-11-28,DE00527,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,12,2024-12-28,DE00528,HTPL,REV_INTEREST,revenue,1674,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2024,1,2024-01-28,DE00529,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,2,2024-02-28,DE00530,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,3,2024-03-28,DE00531,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,4,2024-04-28,DE00532,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,5,2024-05-28,DE00533,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,6,2024-06-28,DE00534,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,7,2024-07-28,DE00535,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,8,2024-08-28,DE00536,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,9,2024-09-28,DE00537,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,10,2024-10-28,DE00538,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,11,2024-11-28,DE00539,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2024,12,2024-12-28,DE00540,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,1,2025-01-28,DE00541,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,2,2025-02-28,DE00542,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,3,2025-03-28,DE00543,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,4,2025-04-28,DE00544,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,5,2025-05-28,DE00545,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,6,2025-06-28,DE00546,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,7,2025-07-28,DE00547,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,8,2025-08-28,DE00548,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,9,2025-09-28,DE00549,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,10,2025-10-28,DE00550,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,11,2025-11-28,DE00551,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,12,2025-12-28,DE00552,HTPL,COST_GOODS_PL,cost,680000,goods,IC-GOODS-PL-DE,Wareneinkauf von HTPL
+HTDE,Härtetechnik AG,Deutschland,2025,1,2025-01-28,DE00553,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,2,2025-02-28,DE00554,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,3,2025-03-28,DE00555,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,4,2025-04-28,DE00556,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,5,2025-05-28,DE00557,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,6,2025-06-28,DE00558,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,7,2025-07-28,DE00559,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,8,2025-08-28,DE00560,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,9,2025-09-28,DE00561,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,10,2025-10-28,DE00562,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,11,2025-11-28,DE00563,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,12,2025-12-28,DE00564,HTUS,REV_GOODS_US,revenue,850000,goods,IC-GOODS-DE-US,Warenlieferung an HTUS
+HTDE,Härtetechnik AG,Deutschland,2025,1,2025-01-28,DE00565,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,2,2025-02-28,DE00566,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,3,2025-03-28,DE00567,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,4,2025-04-28,DE00568,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,5,2025-05-28,DE00569,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,6,2025-06-28,DE00570,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,7,2025-07-28,DE00571,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,8,2025-08-28,DE00572,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,9,2025-09-28,DE00573,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,10,2025-10-28,DE00574,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,11,2025-11-28,DE00575,HTPL,REV_ROYALTY,revenue,6666,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,12,2025-12-28,DE00576,HTPL,REV_ROYALTY,revenue,6674,royalty,IC-LIC-DE-PL,Lizenzertrag Prozess-Know-how
+HTDE,Härtetechnik AG,Deutschland,2025,1,2025-01-28,DE00577,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,2,2025-02-28,DE00578,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,3,2025-03-28,DE00579,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,4,2025-04-28,DE00580,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,5,2025-05-28,DE00581,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,6,2025-06-28,DE00582,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,7,2025-07-28,DE00583,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,8,2025-08-28,DE00584,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,9,2025-09-28,DE00585,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,10,2025-10-28,DE00586,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,11,2025-11-28,DE00587,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,12,2025-12-28,DE00588,HTUS,REV_MGMT,revenue,15000,management_fee,,Konzernumlage Management
+HTDE,Härtetechnik AG,Deutschland,2025,1,2025-01-28,DE00589,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,2,2025-02-28,DE00590,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,3,2025-03-28,DE00591,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,4,2025-04-28,DE00592,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,5,2025-05-28,DE00593,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,6,2025-06-28,DE00594,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,7,2025-07-28,DE00595,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,8,2025-08-28,DE00596,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,9,2025-09-28,DE00597,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,10,2025-10-28,DE00598,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,11,2025-11-28,DE00599,HTPL,REV_INTEREST,revenue,1666,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,12,2025-12-28,DE00600,HTPL,REV_INTEREST,revenue,1674,loan_interest,IC-LOAN-DE-PL,Zinsertrag Gesellschafterdarlehen
+HTDE,Härtetechnik AG,Deutschland,2025,1,2025-01-28,DE00601,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,2,2025-02-28,DE00602,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,3,2025-03-28,DE00603,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,4,2025-04-28,DE00604,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,5,2025-05-28,DE00605,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,6,2025-06-28,DE00606,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,7,2025-07-28,DE00607,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,8,2025-08-28,DE00608,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,9,2025-09-28,DE00609,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,10,2025-10-28,DE00610,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,11,2025-11-28,DE00611,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart
+HTDE,Härtetechnik AG,Deutschland,2025,12,2025-12-28,DE00612,,COST_HQ,cost,75000,hq_cost,HQ-DE,Holdingkosten Stuttgart

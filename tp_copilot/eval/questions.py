@@ -1,0 +1,231 @@
+"""Questions with the paragraph the retriever should surface in the top 3."""
+
+from __future__ import annotations
+
+QUESTIONS: list[dict] = [
+    {
+        "id": "q01",
+        "question": "What is the arm's length principle in Article 9?",
+        "accept": ["1.6"],
+    },
+    {
+        "id": "q02",
+        "question": "How do I accurately delineate a controlled transaction in the comparability analysis?",
+        "accept": ["1.33"],
+    },
+    {
+        "id": "q03",
+        "question": "Which comparability factors include contractual terms, economic circumstances and business strategies?",
+        "accept": ["1.36"],
+    },
+    {
+        "id": "q04",
+        "question": "What does a functional analysis of functions assets risks require?",
+        "accept": ["1.51"],
+    },
+    {
+        "id": "q05",
+        "question": "Which traditional transaction methods and transactional profit methods are recognised?",
+        "accept": ["2.1"],
+    },
+    {
+        "id": "q06",
+        "question": "How is the most appropriate method selected from strengths and weaknesses?",
+        "accept": ["2.2"],
+    },
+    {
+        "id": "q07",
+        "question": "When are traditional methods the most direct means if both are equally reliable?",
+        "accept": ["2.3"],
+    },
+    {
+        "id": "q08",
+        "question": "How does the comparable uncontrolled price CUP method work?",
+        "accept": ["2.14"],
+    },
+    {
+        "id": "q09",
+        "question": "Explain the resale price method and the resale price margin.",
+        "accept": ["2.27"],
+    },
+    {
+        "id": "q10",
+        "question": "How does the cost plus method set a cost plus mark-up?",
+        "accept": ["2.45"],
+    },
+    {
+        "id": "q11",
+        "question": "What net profit indicator does the transactional net margin method use on an appropriate base?",
+        "accept": ["2.64"],
+    },
+    {
+        "id": "q12",
+        "question": "Why TNMM instead of cost plus when energy overhead classification differs and net cost plus is more stable?",
+        "accept": ["2.64"],
+    },
+    {
+        "id": "q13",
+        "question": "Define a Berry ratio of gross profit to operating expenses.",
+        "accept": ["2.106"],
+    },
+    {
+        "id": "q14",
+        "question": "What does the profit split method do?",
+        "accept": ["2.114"],
+    },
+    {
+        "id": "q15",
+        "question": "When do unique and valuable contributions of both parties support a profit split?",
+        "accept": ["2.119"],
+    },
+    {
+        "id": "q16",
+        "question": "When does the arm's length principle produce a range rather than a single figure?",
+        "accept": ["3.55"],
+    },
+    {
+        "id": "q17",
+        "question": "If the result is within the arm's length range, is no adjustment the right outcome?",
+        "accept": ["3.60"],
+    },
+    {
+        "id": "q18",
+        "question": "When is a central tendency used instead of any point in the range?",
+        "accept": ["3.62"],
+    },
+    {
+        "id": "q19",
+        "question": "Which entity keeps the returns from exploiting intangibles under DEMPE?",
+        "accept": ["6.32"],
+    },
+    {
+        "id": "q20",
+        "question": "Was regelt die Einkünftekorrektur in § 1 AStG?",
+        "accept": ["§1 Abs. 1"],
+    },
+    {
+        "id": "q21",
+        "question": "Wie funktioniert das Viertel der kleinsten Werte und der Median nach §1 Abs. 3a AStG?",
+        "accept": ["§1 Abs. 3a"],
+    },
+    {
+        "id": "q22",
+        "question": "Wann entfällt das Transferpaket bei einer Funktionsverlagerung?",
+        "accept": ["§1 Abs. 3b"],
+    },
+    {
+        "id": "q23",
+        "question": "Wann ist ein immaterieller Wert nach Absatz 3c zu vergüten?",
+        "accept": ["§1 Abs. 3c"],
+    },
+    {
+        "id": "q24",
+        "question": "Was gehört in die Transaktionsmatrix zur vertraglichen Grundlage und zum Leistungserbringer?",
+        "accept": ["§90 Abs. 3"],
+    },
+    {
+        "id": "q25",
+        "question": "Worum geht es in den Verwaltungsgrundsätzen vom 6. Juni 2023?",
+        "accept": ["VWG VP 2023"],
+    },
+    {
+        "id": "q26",
+        "question": "Was ist der Fremdvergleichsgrundsatz nach Randnummer 1.6?",
+        "accept": ["1.6"],
+    },
+    {
+        "id": "q27",
+        "question": "Beschreibe die Vergleichbarkeitsanalyse in zwei Schritten.",
+        "accept": ["1.33"],
+    },
+    {
+        "id": "q28",
+        "question": "Welche Comparability factors stehen in Randnummer 1.36?",
+        "accept": ["1.36"],
+    },
+    {
+        "id": "q29",
+        "question": "Warum scheidet die Gewinnaufteilung aus, wenn nicht both parties unique and valuable contributions leisten?",
+        "accept": ["2.119"],
+    },
+    {
+        "id": "q30",
+        "question": "Ist die Preisvergleichsmethode ein comparable uncontrolled price?",
+        "accept": ["2.14"],
+    },
+    {
+        "id": "q31",
+        "question": "Welche Bezugsgröße nennt die Nettomargenmethode als appropriate base?",
+        "accept": ["2.64"],
+    },
+    {
+        "id": "q32",
+        "question": "Was sagt Rn. 2.2 zur geeignetsten Methode?",
+        "accept": ["2.2"],
+    },
+    {
+        "id": "q33",
+        "question": "Wie wirkt ein Energy pass-through Fehler beim Induktionshärten auf den Lohnfertiger?",
+        "accept": ["Fall HT"],
+    },
+    {
+        "id": "q34",
+        "question": "What is PPAP and 8D doing in a transfer pricing functional analysis of induction hardening?",
+        "accept": ["Fall HT"],
+    },
+    {
+        "id": "q35",
+        "question": "Does paragraph 2.3 prefer the most direct means only when methods are equally reliable?",
+        "accept": ["2.3"],
+    },
+    {
+        "id": "q36",
+        "question": "How is a resale price margin different from a Berry ratio?",
+        "accept": ["2.27", "2.106"],
+    },
+    {
+        "id": "q37",
+        "question": "Welche Rolle hat das BMF-Schreiben IV B 5 vom 6. Juni 2023?",
+        "accept": ["VWG VP 2023"],
+    },
+    {
+        "id": "q38",
+        "question": "Erkläre die eingeengte Bandbreite und den Median nach Absatz 3a.",
+        "accept": ["§1 Abs. 3a"],
+    },
+    {
+        "id": "q39",
+        "question": "What does section 1.51 say about functions assets risks and conduct?",
+        "accept": ["1.51"],
+    },
+    {
+        "id": "q40",
+        "question": "When would a cost plus mark-up fail because of cost classification in a hardening plant, so net cost plus is used?",
+        "accept": ["2.64", "2.45"],
+    },
+    {
+        "id": "q41",
+        "question": "When should I use TNMM rather than the cost plus method for a contract manufacturer?",
+        "accept": ["2.64"],
+    },
+    {
+        "id": "q42",
+        "question": "What happens under German law if my margin is outside the interquartile range?",
+        "accept": ["§1 Abs. 3a"],
+    },
+    {
+        "id": "q43",
+        "question": "Does the Polish plant have to value a transfer package if it only produces for the parent?",
+        "accept": ["§1 Abs. 3b"],
+    },
+    {
+        "id": "q44",
+        "question": "Which document lists the parties, the method and the contract name?",
+        "accept": ["§90 Abs. 3"],
+    },
+    {
+        "id": "q45",
+        "question": "Who should earn the profit from the hardening recipe?",
+        "accept": ["Fall HT", "6.32"],
+    },
+]

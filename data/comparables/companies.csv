@@ -1,0 +1,33 @@
+name,label,description,net_cost_plus
+Nordform Metall GmbH,1,Contract manufacturer machining steel automotive parts to customer drawings. The customer owns the design. The plant has no brand of its own.,0.031
+Gliwice Heat Treat Sp. z o.o.,1,Contract manufacturer for induction hardening of steel components. The customer owns the process recipe and the inventory risk.,0.034
+SaarPress Umformtechnik,1,Contract manufacturer stamping and machining steel brackets to customer drawings. Tooling design stays with the customer.,0.038
+Baltic Furnace Works,1,Contract manufacturer and heat-treatment shop for forged steel. One customer reserves capacity. The customer owns the recipe.,0.042
+RheinHard Components,1,Contract manufacturer of hardened steel shafts. Induction hardening follows the customer specification. The customer issues the PPAP.,0.045
+Oder Machining S.A.,1,Contract manufacturer machining steel castings supplied by the customer. Rework above a threshold is charged back to the customer.,0.049
+Elbe Surface Tech,1,Contract manufacturer for induction hardening and surface treatment of steel truck parts. The customer owns the trademarks.,0.052
+Vistula Precision Parts,1,Contract manufacturer turning steel parts to customer specification. The plant does not carry market or warranty risk.,0.056
+Donau Heat Treat,1,Contract manufacturer for induction hardening of steel gearbox parts. The customer owns the recipe and the OEM contract.,0.061
+Morava Toolroom,1,Contract manufacturer doing batch induction hardening of steel fasteners. The process window belongs to the customer.,0.064
+Neckar Metal Processing,1,Contract manufacturer welding and heat-treating steel assemblies. Invoices cover conversion of customer-owned material.,0.068
+Silesia Axle Works,1,Contract manufacturer of steel axle components. Induction hardening follows the customer hardness specification.,0.072
+Mainkai Fabrication,1,Contract manufacturer for steel fabrication and induction hardening. The only customer is one automotive group that owns the design.,0.079
+Bugra Processing Plant,1,Contract manufacturer heat-treating customer-owned steel blanks. The process know-how stays with the customer.,0.084
+CloudPayroll Labs,0,We develop and market cloud software for payroll. We have no manufacturing operations and no metal processing.,
+Nordbank Treasury,0,"Retail and corporate bank. Activities are lending, deposits and payment services. No factory and no automotive parts.",
+Alpen Pharma AG,0,Research-based pharmaceutical company. We own drug patents and sell branded medicine through our own marketing teams.,
+Stadtmarkt Retail,0,Grocery retail chain operating supermarkets. We buy finished consumer goods and sell them to households.,
+Helios Energy Utility,0,Regulated electricity utility. We generate and distribute power. We do not machine or harden metal parts for OEMs.,
+BrandWerk Consumer,0,"Full-fledged consumer brand owner. We design products, own the trademark and carry warranty and market risk worldwide.",
+Atlantic Software Platforms,0,"Enterprise software vendor for airlines. Revenue comes from licences and subscriptions, not from contract manufacturing.",
+Rhein Insurance Group,0,"Life and property insurer. The business is underwriting risk, not producing hardened steel components.",
+Pacific Social Media,0,Advertising-funded social network. Users create content. We do not operate a heat-treatment plant.,
+LuxMode Apparel,0,Fashion house selling branded clothing. Design and brand are the core assets. No automotive machining.,
+Greenfield Mining,0,Copper mining company. We extract ore and sell concentrate. We are not a contract manufacturer of parts.,
+Hotelkette Süden,0,Hotel operator. Revenue is rooms and restaurants. No induction hardening and no OEM supply.,
+Quantum Biotech,0,"Biotechnology company developing antibodies. Laboratories, not machine shops. We own the science.",
+Metro Logistics Only,0,Freight forwarder moving third-party cargo. We do not transform metal and we do not own process recipes.,
+SolarRoof Installers,0,"Installation of rooftop solar panels for homeowners. Field service business, not a hardening plant.",
+DataCenter North,0,Colocation data centres. We sell power and rack space to software companies.,
+OEM Motors Entrepreneur,0,"Full-fledged automotive OEM. We design vehicles, own the brand, set the process, and carry warranty and market risk.",
+Global Consulting Partners,0,Management consulting firm. People-based advisory. No furnaces and no series production.,
