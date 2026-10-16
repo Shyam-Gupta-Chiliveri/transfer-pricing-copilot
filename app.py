@@ -28,11 +28,11 @@ st.set_page_config(
 TEXT = {
     "de": {
         "kicker": "Portfolio · kein Mandat · keine Steuerberatung",
-        "banner": "OECD-Regelwerks-RAG und Benchmarking am fiktiven Härtereikonzern Härtetechnik AG. Dieselbe Agentenstruktur wie Materials Intelligence, andere Regeln, andere Daten.",
+        "banner": "Eine Prüfung von der Funktion bis zur Akte. Vergleichsunternehmen werden gescreent, bevor die Bandbreite getestet wird. Eine Randnummer erscheint nur, wenn sie gefunden wurde.",
         "side_title": "Fall",
         "year": "Prüfungsjahr",
-        "reused_h": "Was wiederverwendet wird",
-        "reused": "Router, RAG, Wissensgraph, Klassifikator, Kritiker. Aus den früheren Repos bleibt die Architektur.",
+        "reused_h": "Was eine Prüfung benutzt",
+        "reused": "Funktion, Methode, gescreente Vergleichsunternehmen, eingeengte Bandbreite, Transaktionsmatrix. Der Kritiker hält eine Randnummer von der Seite, die nicht gefunden wurde.",
         "new_h": "Was neu ist",
         "new": "OECD-Randnummern, § 1 AStG, Transaktionsmatrix, synthetische Buchungen.",
         "missing_h": "Was bewusst fehlt",
@@ -112,14 +112,22 @@ TEXT = {
         "below": "unter der Bandbreite",
         "above": "über der Bandbreite",
         "method": "Methode",
+        "steps": [
+            ("01", "Charakterisieren", "Wer die Rezeptur besitzt und wer dem Kunden gegenübersteht."),
+            ("02", "Methode wählen", "TNMM, wenn Bruttoaufschläge zwischen Härtereien nicht vergleichbar sind."),
+            ("03", "Peers screenen", "Dieselbe Funktion bleibt im Set. Eine Marke oder ein Prinzipal fällt heraus."),
+            ("04", "Bandbreite testen", "Interquartil und Median nach § 1 Abs. 3a AStG."),
+            ("05", "Dokumentieren", "Matrix: Vertrag, Volumen und Entgelt, auch wenn sie auseinanderfallen."),
+            ("06", "Zitat prüfen", "Der Kritiker lässt nur eine Randnummer stehen, die abgerufen wurde."),
+        ],
     },
     "en": {
         "kicker": "Portfolio · no engagement · not tax advice",
-        "banner": "OECD guideline RAG and benchmarking for the fictional hardening group Härtetechnik AG. Same agent structure as Materials Intelligence, different rules, different data.",
+        "banner": "One review, from the function to the file. Peers are screened before the range is tested. A paragraph appears only if it was retrieved.",
         "side_title": "Case",
         "year": "Year under review",
-        "reused_h": "What is reused",
-        "reused": "Router, RAG, knowledge graph, classifier, critic. The architecture comes from the earlier repositories.",
+        "reused_h": "What a review uses",
+        "reused": "Function, method, screened peers, the narrowed range, and the transaction matrix. The critic keeps a paragraph that was not retrieved off the page.",
         "new_h": "What is new",
         "new": "OECD paragraph numbers, § 1 AStG, the transaction matrix, synthetic bookings.",
         "missing_h": "What is left out on purpose",
@@ -199,6 +207,14 @@ TEXT = {
         "below": "below the range",
         "above": "above the range",
         "method": "Method",
+        "steps": [
+            ("01", "Characterize", "Who owns the recipe, and who faces the customer."),
+            ("02", "Choose the method", "TNMM when gross mark-ups across hardening plants are not comparable."),
+            ("03", "Screen peers", "The same function stays in the set. A brand or a principal drops out."),
+            ("04", "Test the range", "Interquartile narrowing and the median under § 1 (3a) AStG."),
+            ("05", "Document", "The matrix records the contract, the volume, and the consideration, including when they differ."),
+            ("06", "Check the citation", "The critic leaves a paragraph on the page only if it was retrieved."),
+        ],
     },
 }
 
@@ -299,6 +315,10 @@ st.markdown(
     .ok {border-left: 4px solid #3f6212;}
     .mid {border-left: 4px solid #a16207;}
     .arrow {text-align: center; font-size: 1.4rem; padding-top: 2.2rem; color: #9a3412;}
+    .steps {display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.55rem; margin: 0 0 0.95rem;}
+    .step {background: white; border: 1px solid #e4d9c8; border-radius: 12px; padding: 0.7rem 0.75rem;}
+    .step b {display: block; color: #9a3412; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.2rem;}
+    @media (max-width: 700px) { .steps {grid-template-columns: 1fr;} }
     div[data-testid="stSegmentedControl"] {margin-top: 0.15rem;}
     </style>
     """,
@@ -334,6 +354,11 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+steps_html = "".join(
+    f"<div class='step'><b>{html.escape(number)} {html.escape(title)}</b>{html.escape(body)}</div>"
+    for number, title, body in S["steps"]
+)
+st.markdown(f"<div class='steps'>{steps_html}</div>", unsafe_allow_html=True)
 
 with st.sidebar:
     st.header(S["side_title"])

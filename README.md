@@ -2,9 +2,9 @@
 
 **Live public page:** [https://shyam-gupta-chiliveri.github.io/transfer-pricing-copilot/](https://shyam-gupta-chiliveri.github.io/transfer-pricing-copilot/)
 
-That page is the brief a recruiter can open without installing anything. The interactive desk runs in Docker.
+That page is the public face of the bench. The interactive desk runs in Docker.
 
-Local desk for one transfer-pricing case. It answers guideline questions with paragraph citations, screens company descriptions, and tests margins for a fictional automotive hardening group.
+The bench walks one controlled group from the function to the file: characterization, method choice, comparable screening, the statutory range, the transaction matrix, and a critic that keeps a paragraph off the page unless it was retrieved. The worked example is the fictional hardening group Härtetechnik AG, so the numbers can be checked.
 
 This is a portfolio project. It is not tax advice, not a client engagement, and not a claim of transfer-pricing work experience.
 
